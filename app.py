@@ -388,3 +388,17 @@ elif analysis_option == "ML Predictions":
 st.sidebar.markdown("---")
 st.sidebar.markdown("### About")
 st.sidebar.info("This dashboard provides comprehensive analysis of Netflix content data including visualizations, recommendations, and ML predictions.")
+
+# Custom Footer Section
+st.markdown("---")
+st.markdown(
+    """
+    <div style="text-align: center; font-size: 15px; margin-top: 20px;">
+        📌 Created by <b>Amit Khotele</b><br>
+        🔗 <a href="https://github.com/amitkhotele" target="_blank">GitHub</a> | 
+        💼 <a href="https://www.linkedin.com/in/amitkhotele" target="_blank">LinkedIn</a> | 
+        📧 <a href="mailto:amitkhotele2@gmail.com">Email</a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
